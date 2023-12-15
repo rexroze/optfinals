@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.gallery {
+    display: inline-block;
+    margin: 5px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gallery:hover {
+    border: 1px solid rgb(209, 61, 16);
+    box-shadow: 0 0 20px 10px rgb(209, 61, 16);
+}
+.gallery img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.description {
+    margin: 10px;
+}
+#gallery {
+    padding: 0px 50px;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 5%;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#logout {
+    float: right;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#logout:hover {
+    background-color: #3367d6;
+}
+
+body {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    line-height: 1.6;
+    color: #555;
+}
+.projects img {
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 10px;
+}
+.my-img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.projects {
+    display: inline-block;
+    padding: 20px;
+}
